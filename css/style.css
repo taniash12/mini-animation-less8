@@ -1,0 +1,63 @@
+.div-bg-img{
+    position: relative;
+}
+.img-bg{
+    width: 100%;
+}
+.div-cloud2{
+    position: absolute;
+    top: 450px;
+    left: 0;
+    animation: cloud2 55s infinite;
+}
+@keyframes cloud2{
+    form{left: 0;}
+    to{left: 1200px;}
+}
+.div-img-cloud2{
+    width: 500px;
+}
+.div-cloud{
+    position: absolute;
+    top: 450px;
+    right: 0;
+    animation: cloud 55s infinite;
+}
+@keyframes cloud{
+    form{right: 0;}
+    to{right: 1200px;}
+}
+.div-sun{
+    position: absolute;
+    top: 120px;
+    left: 320px;
+}
+.div-sun:hover{
+    rotate: 100deg;
+}
+.img-sun{
+    width: 150px;
+}
+.div-avion{
+    position: absolute;
+    top: 400px;
+    left: 0;
+    animation: avion 10s infinite;
+}
+@keyframes avion{
+    form {left: 0;}
+    to {left: 1600px;}
+}
+.img-avion{
+    width: 300px;
+}
+.div-birds{
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation: birds 10s infinite;
+}
+@keyframes birds{
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-1500px);}
+}
